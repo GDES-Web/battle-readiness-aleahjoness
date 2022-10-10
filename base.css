@@ -1,1 +1,96 @@
 
+h1{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h2{
+
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+body{
+
+    display:flex;
+    flex-direction:column;
+    background-color:#F5F5F5;
+    margin:50px;
+
+
+
+}
+
+.logo{
+    background-color:#D0D0D0;
+ 
+}
+
+.navigation{
+    background-color:#D0D0D0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:2em 0em;
+}
+
+.headerbanner{
+
+    background-color:#D0D0D0;
+    display:flex;
+justify-content:center;
+align-items:center;
+height:8em;
+}
+
+
+.column{
+
+    
+flex:1;
+margin:2em 0em;
+gap:15px;
+display:flex;
+flex-direction:row;
+justify-content: center;
+align-items:center;
+
+}
+
+
+.sidebar{
+    background-color:#D0D0D0;
+    /* width:50%; */
+    flex: 1;
+    text-align:center;
+    height:400px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+
+
+.bodyarea{
+    background-color:#D0D0D0;
+    /* width:50%; */
+    flex: 2;
+    text-align:center;
+    height:400px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+
+.footer{
+
+    background-color:#D0D0D0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
